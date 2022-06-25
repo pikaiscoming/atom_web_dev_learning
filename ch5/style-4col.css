@@ -1,0 +1,62 @@
+#wrapper {
+  margin:auto
+  width:1024px;
+  border:2px;
+  border-radius: 30px;
+  border: solid;
+  border-color: green;
+}
+header {
+  height:50px;
+  font-weight:bold;
+  text-align: center;
+  color: red;
+  background-color: yellow;
+}
+h1 {
+  font-size: 22pt;
+  text-align: center;
+}
+h2 {
+  font-size: 18pt;
+  text-align: center;
+}
+p {
+  font-size: 14pt;
+  text-align: center;
+}
+a:hover{
+  font-size: 20pt;
+  color: green;
+}
+#leftcol {
+  float: left;
+  width:150px;
+  height:190px;
+  background-color: aqua;
+}
+#rightcol {
+  float: right;
+  width:150px;
+  height:190px;
+  background-color: aqua;
+}
+#midcol {
+  margin-left:155px;
+  margin-right: 155px;
+}
+br.clear{
+  clear: both;
+}
+#midcol-left {
+	float:left;
+	width:48%;
+	background:lime;
+	font-weight: bold;
+}
+#midcol-right {
+	float:right;
+	width:48%;
+	background:lime;
+	font-weight: bold;
+}
