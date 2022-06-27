@@ -32,13 +32,12 @@ a
 {
 	font-size:14pt;
 	}
-#leftcol 
-{
-	float:left; 
+nav {
+	float:left;
 	width:150px;
-	height:190px; 
+	height:190px;
 	background:aqua;
-	}
+}
 #rightcol 
 {
 	float:right; 
