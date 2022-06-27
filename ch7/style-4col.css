@@ -3,6 +3,7 @@
 	margin:auto; 
 	width:1024px; 
 	border:2px blue solid;
+	font-size:medium;
 }
 header 
 {
@@ -17,20 +18,21 @@ h1
 	margin-left:30px; 
 	font-size:40pt; 
 	color:navy; 
-	font-weight:bold;}	
+	font-weight:bold;
+	font-size:250%;}	
 h2 
 {
-	font-size:18pt; 
+	font-size:150%; 
 	text-align:center;
 	}
 p 
 {
-	font-size:14pt; 
+	font-size:120%; 
 	text-align:center;
 	}
 a 
 {
-	font-size:14pt;
+	font-size:120%;
 	}
 nav {
 	float:left;
