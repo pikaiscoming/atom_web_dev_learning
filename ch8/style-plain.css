@@ -1,0 +1,30 @@
+nav ul {
+	float:left;
+	width:150px;
+	margin-left:3px;
+	list-style-type:none;
+}
+li.btn {
+	width:115px;
+	line-height:20px;
+	margin-bottom:3px;
+	text-align:center;
+}
+li.btn a {
+	display:block;
+	width:115px;
+	color:white;
+	background:gray;
+	font-family:arial;
+	font-size:small;
+	font-weight:bold;
+	text-decoration:none;
+}
+
+li.btn a:hover {
+	background:blue;
+}
+
+li.btn a:active {
+	background:red;
+}
