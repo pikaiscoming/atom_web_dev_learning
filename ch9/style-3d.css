@@ -1,0 +1,112 @@
+body {
+	background:#88CCFF;
+}
+#wrapper 
+{
+	margin:auto; 
+	width:1024px; 
+	background:#A6CCFF; 
+	border: white 10px solid;
+	border-radius: 10px;
+	font-size:medium;
+
+}
+header,nav,article,section,footer {
+	display:block;
+}
+header 
+{
+	margin-top:0; 
+	border-bottom:10px white solid ;
+	
+	height:180px; 
+	background-image:url('images/rainbow-banner.jpg');
+}
+h1 
+{
+	position:absolute; 
+	top:45px; 
+	margin-left:30px; 
+	font-size:40pt; 
+	color:navy; 
+	font-weight:bold;
+	font-size:250%;}	
+h2 
+{
+	font-size:150%; 
+	text-align:center;
+	}
+p 
+{
+	font-size:120%; 
+	text-align:center;
+	}
+a 
+{
+	font-size:120%;
+	
+	}
+nav {
+	float:left;
+	width:150px;
+	height:190px;
+}
+#rightcol 
+{
+	float:right; 
+	width:150px; 
+	height:190px; 
+	}
+#midcol 
+{
+	margin-left:155px; 
+	margin-right:155px;
+	}
+br.clear 
+{
+	clear:both
+	}
+#midcol-left 
+{
+	float:left; 
+	width:46%; 
+	font-weight:bold;
+	}
+#midcol-right 
+{
+	float:right; 
+	width:50%; 
+	font-weight:bold;
+	}
+nav ul {
+	float:left;
+	width:150px;
+	margin-left:3px;
+	padding-left:0px;
+	list-style-type:none;
+}
+li.btn {
+
+	width:150px;
+	line-height:20px;
+	margin-bottom:3px;
+	text-align:center;
+	padding-left:0px;
+}
+li.btn a {
+	margin-left:auto;
+	margin-right:auto;
+	display:block;
+	width:115px;
+	color:white;
+	font-family:arial;
+	font-size:small;
+	font-weight:bold;
+	text-decoration:none;
+}
+/* mouseout (default) */
+li.btn a {background: #1A9CE0; border:4px outset #AABAFF;}
+/* mouseover */
+li.btn a:hover {background:#0A4ADF; border:4px outset #8ABAFF;}
+/* omousedown (optional)*/
+li.btn a:active {background:#AECBFF; border:4px inset #AECBFF;}
