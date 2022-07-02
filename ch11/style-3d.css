@@ -18,6 +18,10 @@ body {
 header,nav,article,section,footer {
 	display:block;
 }
+figure {
+  float: left;
+  margin-left: 15px;
+}
 header
 {
 	margin-top:0;
