@@ -85,8 +85,8 @@ br.clear
 	}
 nav ul{
 		float:left;
-		/* margin-left: auto;
-		margin-right: auto; */
+		margin-left: auto;
+		margin-right: auto;
 		width:1000px;
 		height:40px;
 		text-align: center;
