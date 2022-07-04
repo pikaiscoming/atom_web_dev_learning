@@ -1,0 +1,29 @@
+body {background:#88CCFF;}
+/*#wrapper {margin:auto; width:1024px; background:#33CCFF; border:10px white solid; font-size:medium;}*/
+#wrapper {margin:auto; max-width:1200px; min-width:980px; background:#A6CCFF; border:10px white solid; font-size:medium;}
+header,nav,article,section,footer { display:block; }
+/*header {margin-top:0; height:180px; background-image:url('images/rainbow-banner.jpg');}*/
+header {margin-top:0; border-bottom:10px white solid; height:181px; background-image:url('images/rainbow-banner.jpg');}
+h1 {position:absolute; top:45px; margin-left:30px; font-size:250%; color:navy; font-weight:bold;}	
+h2 {font-size:150%; text-align:center;}
+p {font-size:120%; text-align:center;}
+a {font-size:120%;}
+/*add a left col*/
+#leftcol {float:left; width:150px;}
+#rightcol {float:right; width:150px; height:190px;}
+#midcol {margin-left:155px; margin-right:155px;}
+br.clear {clear:both}
+#midcol-left {float:left; width:46%; font-weight:bold;}
+#midcol-right {float:right; width:50%; font-weight:bold;}
+/*set horizontal button menu*/
+nav ul {float:left; width:1000px; height:40px; margin-left:100px; text-align:center; padding:0; list-style-type:none;}
+/*set general horizontal menu button styles*/
+nav ul li {display:inline-block;}
+/* set general side button styles */
+li.btn {width:115px; line-height:2; margin-bottom:3px; text-align:center;}
+/* set general access (anchor) styles */
+li.btn a {display:block; width:115px; color:white; background:gray; font-family:arial; font-size:100%; font-weight:bold; text-decoration:none;}
+/* mouseover */
+li.btn a:hover	{background:blue;}
+/* mousedown */
+li.btn a:active {background:green;}
