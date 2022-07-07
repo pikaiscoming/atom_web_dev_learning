@@ -1,0 +1,86 @@
+body {
+  background-image: url(images/spring-tile-2.jpg);
+}
+#wrapper {margin:auto; max-width:1110px; min-width:1045px; background:white; border:10px white solid; font-size:medium;
+border-radius: 15px;}
+header,nav,article,section,footer { display:block; }
+header {margin-top:0; border-bottom:10px white solid; height:181px; background-image:url('images/spring-header.jpg');}
+#content {
+  background-image:url("images/grenswrl.gif");
+  min-width:980;
+  border-radius: 6px;
+}
+h1 {position:absolute; top:-15px; margin-left:30px; font-size:450%; color:white; font-weight:bold;}
+h2 {font-size:150%; text-align:center;}
+p {font-size:120%; text-align:center;}
+a {font-size:120%;}
+#leftcol {
+  float:left;
+  width:150px;
+}
+#rightcol {float:right; width:150px; height:190px;}
+#midcol {margin-left:155px; margin-right:155px;
+background: white;
+padding:5px;}
+br.clear {clear:both}
+#midcol-left {float:left; width:46%; font-weight:bold;}
+#midcol-right {float:right; width:50%; font-weight:bold;}
+/*set vertical button menu column*/
+nav ul {
+   width:960px;
+   height:40px;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+
+   list-style-type:none;
+}
+nav ul li {
+
+  display:inline-block;
+}
+/*set general side button styles*/
+li.btn {width:115px; line-height:20px; margin-bottom:3px; text-align:center;  margin-left: 30px;}
+/* set general anchor styles */
+li.btn a {display:block; width:115px; color:white; font-family:arial; font-size:small; font-weight:bold; text-decoration:none;}
+/* mouseout (default) */
+li.btn a {background: #559A55; border:4px outset #559A55;}
+/* mouseover */
+li.btn a:hover	{display:block; background:red; border:4px outset red;}
+/* omousedown */
+li.btn a:active {background:maroon; border:4px inset maroon }
+.left {
+  text-align: left;
+}
+.quoye {
+  float: right;
+  font-weight: normal;
+  font-size:90%;
+}
+nav#vertical ul {
+  float: left;
+  width: 150px;
+  margin-left: -5px;
+  padding-left: 0;
+  list-style-type: none;
+}
+li.vbtn {
+  width: 115px;
+  line-height:20px;
+  margin-bottom:9px;
+  text-align: center;
+}
+li.vbtn a{
+  display: block;
+  width: 115px;
+  color: white;
+  font-family: arial;
+  font-size:small;
+  font-weight: bold;
+  text-decoration: none;
+}
+li.vbtn a {background: #559A55; border:4px outset #559A55;}
+/* mouseover */
+li.vbtn a:hover	{display:block; background:red; border:4px outset red;}
+/* omousedown */
+li.vbtn a:active {background:maroon; border:4px inset maroon }
