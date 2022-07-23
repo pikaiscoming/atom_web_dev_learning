@@ -43,3 +43,7 @@ li.vbtn a:hover	{ background:red; border:4px outset red;}
 li.vbtn a:active {background:maroon; border:4px inset maroon; }
 footer>p  {
   text-align:center;}
+.small {
+  font-size:75%;
+  color:black;
+}

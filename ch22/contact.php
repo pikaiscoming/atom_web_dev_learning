@@ -3,7 +3,7 @@
   <head>
 		<title>About for the spring garden</title>
     <meta charset=utf-8>
-    <meta name="description"  content="Terms and conditions">
+    <meta name="description"  content="Contact Us">
     <meta name="keywords" content="bulbs, seeds, plants, spring bulbs, spring garden seeds, spring garden plants">
     <link href="style-3d-gdn.css" rel="stylesheet" type="text/css">
      <!--[if lte IE 8]>
