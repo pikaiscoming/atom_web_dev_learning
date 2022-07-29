@@ -122,7 +122,7 @@ header {
   border-bottom-right-radius: 30px;
 }
 
-.F {
+.F {                          /* 平面圖的標題*/
     font-family: "微軟正黑體";
     width: 80%;
     height: 5%;
@@ -202,9 +202,9 @@ header {
     stroke-width: 0.5;
 }
 
-#chart .disabled:hover {
+/* #chart .disabled:hover {
     opacity: 0.7;
-}
+} */
 
 #chart .washing {
     fill: #faf4f1;
@@ -218,11 +218,11 @@ header {
     stroke-width: 0.6;
 }
 
-#dryerMachine-1 {
+/* #dryerMachine-1 {
     stroke-width: 3;
     opacity: 0.15;
-    /* animation: dash 1.4s linear infinite; */
-}
+    animation: dash 1.4s linear infinite;
+} */
 
 #chart .wc {
 
@@ -230,6 +230,7 @@ header {
       stroke: #2FB1F2;
       stroke-width: 0.5;
 }
+
 .wc_ {
   transform: rotate(90deg);
   opacity: 0.1;
@@ -284,7 +285,7 @@ header {
     display: flex;
     justify-content: flex-start;
 }
-.facility-name {
+.facility-name {            /* 下面燈號的設施名字*/
   width:30%;
   text-align: center;
 }
@@ -297,7 +298,7 @@ header {
     justify-content: space-around;
 }
 
-.box {
+.box {                    /* 每個格子*/
     border: solid;
     height: 23px;
     width: 23px;
@@ -344,6 +345,10 @@ header {
 }
 
 #bath-box-6:hover {
+    background-color: #CC3014;
+}
+
+#bath-box-7:hover {
     background-color: #CC3014;
 }
 .content h1 {
