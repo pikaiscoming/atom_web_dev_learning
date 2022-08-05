@@ -1,0 +1,5 @@
+body {text-align:center; font-size: large; font-weight:bold; background-color:#c9eCa0;}
+span.red {color:red; font-size:xlarge; font-weight:bold;}
+#back-button {margin:auto; text-align:center; width:200px; height:25px; padding:5px; background-color:red; color:white; font-size:105%; font-weight:bold;}
+#back-button a {text-decoration:none; color:white;} 
+#back-button a:hover {color:aqua;} 
