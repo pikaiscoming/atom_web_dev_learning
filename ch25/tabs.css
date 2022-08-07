@@ -1,0 +1,49 @@
+/* SET STYLES TO EQUALISE BROWSER RENDITION*/
+body, h1, h2, h3, h4, h5, h6, p, ol, ul, li {
+  padding:0;
+  margin:0;
+}
+header, footer, section, article, nav {
+  display:block;
+}
+/*SET THE GENERAL STYLES FOR THE PAGES*/
+body {
+  text-align:center;
+  margin:20px;
+  background:#bee8ff;
+  font:medium arial;
+}
+#wrapper {
+  margin:auto; max-width:1180px;
+   min-width:960px;
+   border:10px white solid;}
+#container {
+  max-width:1180px;
+  min-width:960px;
+  margin:-10px auto 0 auto;}
+h2 {text-align:center;}
+p.img {text-align:center;}
+header {
+  margin-top:10px;
+  height:146px;
+  width:100%;
+  background-image:url('images/bluepan-2.jpg');
+  background-repeat:no-repeat;
+  background-position:center; border-bottom:0;
+}
+h1 {font-family:Arial; font-size:320%; color:white; font-weight:normal;
+text-align:center; padding-top:35px; margin-bottom:-10px; height: 94px; margin:auto;}
+/*POSITION THE MENU ON THE PAGE*/
+nav {position:relative; top:-13px; border-bottom:1px solid black; margin:-25px 0 0 0;}
+/* USE DISPLAY:INLINE TO DISPLAY THE MENU AS A ROW OF TABS*/
+nav li {display: inline; overflow: hidden; list-style-type: none;}
+/*SET THE COLOURS FOR THE NON-ACTIVE TABS. SPECIFY THE FONT USED IN THE TABS*/
+nav a {color:navy; background:#81d9f6; font:bold 1em Arial;
+border:1px solid black; padding:2px 5px 0px 5px; margin:0; text-decoration:none;}
+/*CREATE A 3PX WIDE BOTTOM BORDER ON TAB THE SAME COLOUR AS THE CONTENT PANEL*/
+nav a#active {background:white; color:navy; border-bottom:3px solid white}
+/*HOVERING OVER A NON-ACTIVE TAB CREATES AN AQUA TAB*/
+nav a:hover {background:aqua;}
+/*MOVE THE WHITE CONTENT PANEL CLOSE UP TO THE ROW OF TABS*/
+#content {margin-top:0; font:arial; position:relative; top:-13px; text-align:left; background:white;
+padding:20px; border:1px solid black; border-top:none;}
