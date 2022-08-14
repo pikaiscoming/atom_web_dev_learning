@@ -252,17 +252,16 @@ header {
     opacity: 1;
 } */
 
-#washing-1,
-#washing-2 {
+.washing-move{
     fill: #FAF4F1;
     stroke: transparent;
     stroke-width: 0;
 }
 
-/*
-#chart .washing:hover {
 
-    fill: #FAF4F1;
+/* #washingMachine-1:hover {
+
+    fill: blue;
     pointer-events: all;
 } */
 
@@ -310,7 +309,7 @@ header {
     border-radius: 8px;
 }
 
-#wash-box-1:hover {
+/* #wash-box-1:hover {
     background-color: #CC3014;
 }
 
@@ -348,7 +347,7 @@ header {
 
 #bath-box-6:hover {
     background-color: #CC3014;
-}
+} */
 
 .content h1 {
     font-family: "微軟正黑體";

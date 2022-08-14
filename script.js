@@ -6,17 +6,34 @@ function delay(n) {
 
 async function myAsyncFunction() {
     while (1) {
-        const washingMachine_box1 = document.getElementById('wash-box-1');
-        const washingMachine_1 = document.getElementById('washingMachine-1');
-        const shower_box1 = document.getElementById('bath-box-1');
-        const shower_1 = document.getElementById('shower-1');
-        const disabled_box1 = document.getElementById('dis-box-1');
-        const disabled_1 = document.getElementById('disabled-1');
-        const dryerMachine_box1 = document.getElementById('dry-box-1');
-        const dryerMachine_1 = document.getElementById('dryerMachine');
+        const washingMachine_box1 = document.getElementById('wash-box-1-1');
+        const washingMachine_1 = document.getElementById('washingMachine-1-1');
+        const washingMachine_box2 = document.getElementById('wash-box-1-2');
+        const washingMachine_2 = document.getElementById('washingMachine-1-2');
+
+        const shower_box1 = document.getElementById('bath-box-1-1');
+        const shower_1 = document.getElementById('shower-1-1');
+        const shower_box2 = document.getElementById('bath-box-1-2');
+        const shower_2 = document.getElementById('shower-1-2');
+        const shower_box3 = document.getElementById('bath-box-1-3');
+        const shower_3 = document.getElementById('shower-1-3');
+        const shower_box4 = document.getElementById('bath-box-1-4');
+        const shower_4 = document.getElementById('shower-1-4');
+        const shower_box5 = document.getElementById('bath-box-1-5');
+        const shower_5 = document.getElementById('shower-1-5');
+
+        const disabled_box1 = document.getElementById('dis-box-1-1');
+        const disabled_1 = document.getElementById('disabled-1-1');
+        const dryerMachine_box1 = document.getElementById('dry-box-1-1');
+        const dryerMachine_1 = document.getElementById('dryerMachine-1-1');
+
+        const wc_1 = document.getElementById('wc-1-1');
+        const wc_2 = document.getElementById('wc-1-2');
+        const wc_3 = document.getElementById('wc-1-3');
+        const wc_1 = document.getElementById('wc')
 
         console.log("start to fetch data");
-        fetch('http://127.0.0.1:8000/dorm/getJsondata')
+        fetch('http://127.0.0.1:8000/dorm/getJsondata1')
             .then((response) => {
                 console.log("response.json()", response);
                 return response.json();
