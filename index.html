@@ -101,12 +101,12 @@
 						href="https://raw.githubusercontent.com/xhartonx/DORM/5a2e66114a04616325357a6f302e774faf939cd1/html/html/img/shower-1.svg"
 						opacity="0.1" />
 
-					<rect class="washing" id='washingMachine-1-1' x="27.5%" y="48%" width="7.5%" height="16%"></rect>
+					<rect class="washing" id='washingMachine-1-2' x="27.5%" y="48%" width="7.5%" height="16%"></rect>
 					<rect class="washing-move" x="27.5%" y="48%" width="7.5%" height="16%">
 						<animate attributeType="XML" attributeName="height" from="50" to="1" begin="0s" dur="1.5s"
 							repeatCount="indefinite" />
 					</rect>
-					<rect class=" washing" id='washingMachine-1-2'x="18%" y="48%" width="7.5%" height="16%">
+					<rect class=" washing" id='washingMachine-1-1'x="18%" y="48%" width="7.5%" height="16%">
 					</rect>
 					<rect class="washing-move" x="18%" y="48%" width="7.5%" height="16%">
 						<animate attributeType="XML" attributeName="height" from="50" to="1" begin="0s" dur="1.5s"
@@ -582,9 +582,11 @@
 	</div>
 	<!--back purple end here -->
 
-	<script src="{% static '/javascript/dormitory.js' %}">
+	<!-- <script src="{% static '/javascript/dormitory.js' %}">
 
-	</script>
+	</script> -->
+
+
 	<script type="text/javascript">
 		$("#floor-plan-1").hide()
 		$("#floor-plan-2").show()
@@ -626,6 +628,31 @@
 			$("#floor-plan-2").hide()
 			$("#floor-plan-5").show();
 		})
+		const dryerMachine_box1 = document.getElementById('dry-box-1-1');
+		const dryerMachine_1 = document.getElementById('dryerMachine-1-1');
+
+		const wc_1 = document.getElementById('wc-1-1');
+		const wc_2 = document.getElementById('wc-1-2');
+		const wc_3 = document.getElementById('wc-1-3');
+		wc_1_usage = 11;
+		wc_2_usage = 11;
+		wc_3_usage = 11;
+		if (parseInt(wc_1_usage) > 10) {
+				wc_1.style.opacity = 0.8;
+		} else {
+				wc_1.style.opacity = 0.1;
+		}
+		if (parseInt(wc_2_usage) > 10) {
+				wc_2.style.opacity = 0.8;
+		} else {
+				wc_2.style.opacity = 0.1;
+		}
+		if (parseInt(wc_3_usage) > 10) {
+				wc_3.style.opacity = 0.8;
+		} else {
+				wc_3.style.opacity = 0.1;
+		}
+
 	</script>
 
 
