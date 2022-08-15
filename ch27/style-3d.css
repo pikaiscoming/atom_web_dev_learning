@@ -1,9 +1,10 @@
 body {background:#88CCFF;}
 #wrapper {margin:auto; max-width:1200px; min-width:980px; background:#C6DCFF; border:10px white solid; font-size:medium;}
-
 header,nav,article,section,figure,footer {display:block;}
 header {margin-top:0; border-bottom:10px white solid; height:181px; background-image:url('images/rainbow-banner.jpg');}
-h1 {position:absolute; top:45px; margin-left:30px; font-size:250%; color:navy; font-weight:bold;}
+h1 {position:absolute; top:45px; margin-left:30px; font-size:350%; color:white; font-weight:bold;
+text-shadow:2px 2px 4px black;
+}
 h2 {font-size:150%; text-align:center;}
 p {font-size:120%; text-align:center;}
 a {font-size:120%;}
@@ -28,7 +29,7 @@ li.btn a:hover	{background:#0A4ADF; border:4px outset #8ABAFF;}
 /* mousedown */
 li.btn a:active {background:#AECBFF; border:4px inset #AECBFF;}
 #wrapper {
-  box-shadow:10px 10px 20px $505050;
+  box-shadow:10px 10px 20px #505050;
 
 }
 .shadow {

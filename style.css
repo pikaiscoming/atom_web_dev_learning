@@ -232,6 +232,7 @@ header {
 
 .wc_ {
     transform: rotate(90deg);
+    opacity: 0.1;
 }
 
 
