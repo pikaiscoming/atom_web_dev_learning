@@ -1,0 +1,6 @@
+h3 {text-align:center;}
+/*Position the form elements on the page*/
+form {width:500px; margin:auto; text-align:center;}
+.label {float:left; width:400px; text-align:right; clear:left;}
+#submit { text-align:center;}
+.red {color:red; font-weight:bold;} 
