@@ -106,18 +106,16 @@ p {
     background:black;
     margin-top:13px;
     color:#2997ff;
-    font-size: 19px;
+    font-size: 18px;
     line-height: 1.5;
-    font-weight: 400;
+    font-weight: 500;
     padding-left:12px;
 }
-.put-img {
+.put-img-pro {
     overflow:hidden;
     display:flex;
     width:100%;
     height:806px;
-
-    padding: 0;
 }
 .img-14-pro {
     object-fit: none;
@@ -128,17 +126,15 @@ p {
 }
 .i14-model {
     width:100%;
-    height:736px;
+    height:700px;
     display:block;
     box-sizing:broder-box;
-    background:white;
+    overflow:hidden;
 }
 .i14-wrapper {
-    display:flex;
-    content-justify:center;
-    background:white;
     flex-flow: column;
     width: 100%;
+    background:#fbfbfd;
 }
 .i14-wrapper > h2{
     line-height:3.3;
@@ -152,17 +148,63 @@ p {
 .i14-wrapper h3{
     text-align:center;
     font-size:26px;
-    font-weight: 500;
+    font-weight: 600;
     margin-top:-58px;
     letter-spacing:-0.06em;
     color:black;
 }
 .i14-wrapper p {
-    background:white;
     color:#86868b;
-    font-size: 21px;
-    line-height: 2.2;
-    font-weight: 500;
-    letter-spacing:-0.03em;
+    font-size: 18px;
+    line-height: 2;
+    font-weight: 400;
+    background:transparent;
+    letter-spacing:0.05em;
+    padding-left:12px;
 }
+.put-img-14 {
+    overflow:hidden;
+    display:flex;
+    width:100%;
+    height:793px;
+}
+.img-14 {
+    object-fit: none;
+    object-position: 50% -488%;
+    width:100%;
+}
+.watch-ultra {
+    display:flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+    height:695px;
+    width:100%;
+    background-image:url('https://www.apple.com/tw/home/heroes/watch-ultra/images/hero_apple_watch_ultra__dtz0f3e8oscy_largetall.jpg');
+    background-repeat:no-repeat;
+    background-position:bottom center;
+    margin-top:12px;
+}
+.apple-watch-word-logo {
+    width:187px;
+    height:71px;
+    margin-top:67px;
+}
+.watch-ultra h3 {
+    text-align:center;
+    font-size: 26px;
+    font-weight: 600;
+    letter-spacing: -0.1em;
+    padding-left:30px;
+    padding-top:13px;
+}
+.watch-ultra p {
+    color:#0066CC;
+    font-size: 18px;
+    font-weight: 500;
+    margin:-7px 0 0 0;
+    letter-spacing:0.05em;
+    background:transparent;
 
+}
+933.5 580
