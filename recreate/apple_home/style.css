@@ -207,4 +207,35 @@ p {
     background:transparent;
 
 }
-933.5 580
+.other-products-container {
+    width:1879px;
+    height:1764px;
+    display:flex;
+    flex-wrap:wrap;
+    margin:12px;
+    gap:12px;
+}
+.other-products-container > div {
+    display:block;
+    width:933.5px;
+    height:580px;
+    background-position:bottom center;
+}
+#watch8 {
+    background-image:url('https://www.apple.com/tw/home/promos/watch-series-8/images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg');
+}
+#watchse {
+    background-image:url('https://www.apple.com/tw/home/promos/watch-se/images/promo_apple_watch_se__f9702l6odgi2_large.jpg');
+}
+#airpod-pro {
+    background-image:url('https://www.apple.com/v/home/as/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large.jpg');
+}
+#ios-16 {
+    background-image:url('https://www.apple.com/tw/home/promos/ios-16/images/promo_ios16__fuxdkoy5c1ei_large.jpg');
+}
+#macbook-air {
+    background-image:url('https://www.apple.com/v/home/as/images/promos/macbook-air/promo_macbookair__fywl7i82fueu_large.png');
+}
+#ipadair {
+    background-image:url('https://www.apple.com/v/home/as/images/promos/ipad-air/promo_ipadair_avail__ferd4bfpcdm6_large.jpg');
+}
