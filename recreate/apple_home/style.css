@@ -202,7 +202,7 @@ p {
     color:#0066CC;
     font-size: 18px;
     font-weight: 500;
-    margin:-7px 0 0 0;
+    margin-top:-7px;
     letter-spacing:0.05em;
     background:transparent;
 
@@ -216,26 +216,100 @@ p {
     gap:12px;
 }
 .other-products-container > div {
-    display:block;
+    display:flex;
+    flex-direction:column;
+    justify-content: start;
+    align-items:center;
     width:933.5px;
     height:580px;
     background-position:bottom center;
 }
 #watch8 {
+
     background-image:url('https://www.apple.com/tw/home/promos/watch-series-8/images/promo_apple_watch_series_8__ch7rexplmihe_large.jpg');
+}
+#watch8 > img {
+    width:137px;
+    height:52px;
+    margin-top: 59px;
+}
+#watchse > img {
+    width:129px;
+    height:49px;
+    margin-top: 59px;
+}
+.other-products-container > div > h4 {
+    text-align:center;
+    font-size: 19px;
+    font-weight: 600;
+    letter-spacing: -0.05em;
+    margin-left:13px;
+    padding-top:10px;
+}
+.other-products-container > div > h5 {
+    text-align:center;
+    font-size: 15px;
+    line-height: 3;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    margin-left:6px;
 }
 #watchse {
     background-image:url('https://www.apple.com/tw/home/promos/watch-se/images/promo_apple_watch_se__f9702l6odgi2_large.jpg');
 }
 #airpod-pro {
+    line-height: 1.1;
     background-image:url('https://www.apple.com/v/home/as/images/promos/airpods-pro/promo_airpods_pro_avail__gaxggskofx6y_large.jpg');
 }
+#airpod-pro h3{
+    font-size: 40px;
+    font-weight: 600;
+    color:#f5f5f7;
+    margin-top:50px;
+    letter-spacing:-0.02em;
+}
+#airpod-pro p {
+    color:#7a7a7f;
+    height:25px;
+    width:100%;
+    font-size:15px;
+    font-weight:900;
+    background:transparent;
+    letter-spacing:-0.05em;
+    margin-top:-5px;
+    margin-bottom:10px;
+}
+
 #ios-16 {
+    line-height: 1.1;
     background-image:url('https://www.apple.com/tw/home/promos/ios-16/images/promo_ios16__fuxdkoy5c1ei_large.jpg');
+}
+#ios-16 h3{
+    font-size: 40px;
+    font-weight: 600;
+    color:#1d1d1f;
+    margin-top:50px;
+    letter-spacing:-0.02em;
 }
 #macbook-air {
     background-image:url('https://www.apple.com/v/home/as/images/promos/macbook-air/promo_macbookair__fywl7i82fueu_large.png');
 }
+#macbook-air h3 {
+    font-size: 40px;
+    font-weight: 600;
+    color:#1d1d1f;
+    margin-top:50px;
+    letter-spacing:-0.02em;
+}
+
 #ipadair {
+    line-height: 1.05;
     background-image:url('https://www.apple.com/v/home/as/images/promos/ipad-air/promo_ipadair_avail__ferd4bfpcdm6_large.jpg');
 }
+#ipadair > img {
+    width:133px;
+    height:37px;
+    margin-top: 63px;
+    margin-bottom:-5px;
+}
+
