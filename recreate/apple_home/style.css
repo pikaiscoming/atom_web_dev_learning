@@ -310,6 +310,32 @@ p {
     margin-top: 63px;
     margin-bottom:-5px;
 }
+.TV-plus {
+    display:flex;
+    flex-direction:column-reverse;
+    height:705.25px;
+    width:100%;
+    background:white;
+}
+.grow-up {
+    background-image:url('https://is3-ssl.mzstatic.com/image/thumb/VAxfsLD1icvUGr23MaGvQg/1250x703.jpg')
+    background-repeat:no-repeat;
+    width:1250px;
+    height:667.25;
+
+}
+
+.dots {
+    width:100%;
+    height:25px;
+}
+.dots ul {
+    display:flex;
+    flex-direction:row;
+
+}
+
+
 footer {
     width:1903px;
     height:496px;
