@@ -370,6 +370,10 @@ p {
     background-color: #d6d6d6;
     border-width:0em;
 }
+.play-pause {
+    width:25.75px;
+    height:22px;
+}
 .grow-up {
     background-image:url('https://is3-ssl.mzstatic.com/image/thumb/VAxfsLD1icvUGr23MaGvQg/1250x703.jpg');
     background-repeat:no-repeat;
@@ -535,7 +539,13 @@ footer {
 .tw {
     margin-left:370px;
 }
-
+.dot-but {
+  background:none;
+  border:none;
+  color:#FFF;
+  font-family:Verdana, Geneva, sans-serif;
+  cursor:pointer;
+}
 
 
 
