@@ -1,16 +1,53 @@
 * {
+    margin: 0;
+    padding: 0;
     font-family:Spiegel, "Arial Narrow", Arial, sans-serif
 }
 
+        #::-webkit-scrollbar-track
+        {
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+            background-color: #F5F5F5;
+        }
+        #::-webkit-scrollbar
+        {
+            width: 12px;
+            background-color: #F5F5F5;
+        }
+        #::-webkit-scrollbar-thumb
+        {
+            border-radius: 10px;
+            -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+            background-color: #555;
+        }
 nav {
     display:flex;
-    justify-content:between;
+    justify-content:start;
     width:100%;
     height:80px;
     background-color:#111;
 }
+.riot-logo-box {
+    display:flex;
+    width:95px;
+    height:100%;
+    align-items:center;
+}
+
 nav  ul {
     display:flex;
     justify-content:between;
     list-style-type:none;
+}
+
+nav > li > a {
+    font-size:13px;
+    color:#F9F9F9;
+    text-align: center;
+    text-decoration: none;
+    font-weight:bold;
+}
+
+li a:hover {
+    opacity:1;
 }
