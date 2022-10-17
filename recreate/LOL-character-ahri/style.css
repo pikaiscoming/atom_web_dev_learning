@@ -28,26 +28,64 @@ nav {
     background-color:#111;
 }
 .riot-logo-box {
+    margin-left:36px;
     display:flex;
     width:95px;
-    height:100%;
+    align-items:center;
+}
+.lol-link {
+    display:flex;
+    align-items:center;
+    width:38px;
+    margin-left:22px;
+}
+nav  ul {
+    display:flex;
+    justify-content:flex-start;
+    width:1372px;
+    height:78px;
+    margin-left:5px;
+    list-style-type:none;
+}
+nav ul li {
+    display:flex;
+    padding-left:35px;
     align-items:center;
 }
 
-nav  ul {
-    display:flex;
-    justify-content:between;
-    list-style-type:none;
-}
-
-nav > li > a {
-    font-size:13px;
+nav  li  a {
+    font-family: "FF Mark W05",Arial,sans-serif;
+    letter-spacing: .16em;
+    font-size:12px;
     color:#F9F9F9;
     text-align: center;
     text-decoration: none;
-    font-weight:bold;
+    font-weight:600;
 }
 
 li a:hover {
     opacity:1;
+}
+
+.right-nav {
+    width:290px;
+    display:flex;
+    justify-content:flex-start;
+    align-items:center;
+}
+.sign {
+    margin-left:20px;
+}
+.lang {
+    margin-left:14px;
+}
+
+.link-but {
+    display:block-inline;
+    height:32px;
+    font-size:13px;
+    background-color:##282828;
+    color:#F9F9F9;
+    text-decoration:none;
+    text-align:center;
 }
