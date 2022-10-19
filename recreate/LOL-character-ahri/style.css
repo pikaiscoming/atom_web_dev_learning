@@ -68,24 +68,53 @@ li a:hover {
 }
 
 .right-nav {
+    margin-left:20px;
     width:290px;
     display:flex;
-    justify-content:flex-start;
+    flex-direction:row;
+    column-gap:14px;
     align-items:center;
 }
-.sign {
-    margin-left:20px;
-}
-.lang {
-    margin-left:14px;
-}
 
-.link-but {
-    display:block-inline;
+.right-nav a {
+    font-family: "FF Mark W05",Arial,sans-serif;
+    display:block;
     height:32px;
     font-size:13px;
-    background-color:##282828;
-    color:#F9F9F9;
+    font-weight:700;
+    padding:0 16px;
+    line-height:32px;
+    letter-spacing: .1em;
     text-decoration:none;
     text-align:center;
+    white-space:nowrap;
+}
+.link-but {
+    border-radius:8px;
+    background-color:#282828;
+    color:#F9F9F9;
+}
+.play-now-but {
+    border-radius:12px;
+    background-color:#0BC4E2;
+    color:#111;
+}
+.play-now-but:hover {
+    background:rgb(0, 178, 207)
+}
+
+.ahri {
+    position:relative;
+    display:flex;
+    justify-content:center;
+    height:824.55px;
+    overflow:hidden;
+    margin-top:-110px;
+    z-index:-1;
+}
+.back-ahri {
+    flex-shrink: 0;
+    min-width: 110%;
+    min-height: 150%;
+    filter: blur(8px) brightness(35%);
 }
