@@ -1,7 +1,7 @@
 * {
     margin: 0;
     padding: 0;
-    font-family:Spiegel, "Arial Narrow", Arial, sans-serif
+
 }
 
         #::-webkit-scrollbar-track
@@ -102,19 +102,79 @@ li a:hover {
 .play-now-but:hover {
     background:rgb(0, 178, 207)
 }
-
 .ahri {
     position:relative;
     display:flex;
     justify-content:center;
-    height:824.55px;
+    height:930.55px;
     overflow:hidden;
     margin-top:-110px;
     z-index:-1;
 }
-.back-ahri {
+.ahri-blur {
     flex-shrink: 0;
-    min-width: 110%;
-    min-height: 150%;
-    filter: blur(8px) brightness(35%);
+    min-width: 100%;
+    min-height: 130%;
+    filter: blur(8px) brightness(33%);
+}
+.ahri-content {
+    width:1215px;
+    height:790px;
+    margin-top:-790px;
+    margin-left:344px;
+}
+.ahri-content h3 {
+    position:relative;
+    font-family:"Beaufort for LOL", serif;
+    font-style: italic;
+    font-size:26px;
+    font-weight:900;
+    letter-spacing:-0.0em;
+    color:#FFFFFF;
+    text-align:center;
+    margin-top:-170px;
+    text-transform: uppercase;
+
+}
+.ahri-content h1{
+    position:relative;
+    font-family:"Beaufort for LOL", serif;
+    font-style: italic;
+    font-size:120px;
+    font-weight:bold;
+    letter-spacing:3.6px;
+    color:#FFFFFF;
+    text-align:center;
+    margin-top:-10px;
+}
+.skins-gallery {
+    display:flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    height:1086px;
+    background:white;
+}
+.vertical-word {
+    font-family: Spiegel, "Arial Narrow", Arial, sans-serif;
+    width:60px;
+    color:#1C1D2A;
+    font-size:12px;
+    font-weight:700;
+    line-height:60px;
+    text-align:center;
+    writing-mode: vertical-rl;
+    text-orientation: sideways;
+    text-transform: uppercase;
+    transform: rotate(-180deg);
+    letter-spacing: 0.25em;
+}
+.gallery {
+    width:1663px;
+    height:100%;
+    background:100%;
+}
+.skins-show {
+    width:1560px;
+    height:920px;
+
 }
