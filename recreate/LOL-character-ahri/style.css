@@ -151,6 +151,7 @@ li a:hover {
     display:flex;
     flex-direction:row;
     justify-content:flex-start;
+    column-gap:113px;
     height:1086px;
     background:white;
 }
@@ -169,12 +170,16 @@ li a:hover {
     letter-spacing: 0.25em;
 }
 .gallery {
-    width:1663px;
-    height:100%;
-    background:100%;
-}
-.skins-show {
+    margin-top:83px;
     width:1560px;
     height:920px;
+    display:flex;
+    justify-content:start;
+    background:url('https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ahri_0.jpg')
+    no-repeat center center;
+    background-size: 1560px 920px;
+
+}
+.skins-show {
 
 }
