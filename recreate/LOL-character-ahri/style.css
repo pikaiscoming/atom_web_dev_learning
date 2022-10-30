@@ -179,25 +179,62 @@ li a:hover {
     no-repeat center center;
     background-size: 1560px 920px;
 }
-.select-skin {
+.left-aside {
     width:480px;
     height:100%;
-    background-color:rgb(0, 0, 0, 0.5);
+    background-color:rgb(0, 0, 0, 0.65);
     display:flex;
     flex-direction:column;
 }
-.select-skin h2{
+.left-aside h2{
     display:block;
     height:75px;
+
+    margin-top:40px;
+    padding:20px;
+
     font-size:40px;
     font-family: "FF Mark W05",Arial,sans-serif;
     font-style: italic;
     color:#FFFFFF;
-    margin-top:40px;
     text-transform: uppercase;
     font-weight:600;
     text-align:center;
-    padding:20px;
-
-
+}
+.select-skin {
+    width:100%;
+    flex-grow:1;
+    overflow:hidden;
+}
+.select-skin ul{
+     display:flex;
+     flex-direction:column;
+     margin-top:150px;
+     row-gap:30px;
+ }
+.select-skin li{
+    list-style-type:none;
+}
+button {
+    margin-left:60px;
+    width:435px;
+    height:100px;
+    display:flex;
+    flex-direction:row;
+    column-gap:25px;
+    background-color:transparent;
+    border-width:0em;
+}
+button > img {
+    width:100px;
+    height:100px;
+    object-fit:cover;
+}
+button > h3 {
+    color:#FFFFFF;
+    font-size:13px;
+    font-weight:600;
+    line-height:100px;
+    text-align:left;
+    flex-grow:1;
 }
