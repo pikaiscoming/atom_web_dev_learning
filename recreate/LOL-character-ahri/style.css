@@ -207,10 +207,13 @@ li a:hover {
     overflow:hidden;
 }
 .select-skin ul{
-     display:flex;
-     flex-direction:column;
-     margin-top:150px;
-     row-gap:30px;
+    position:relative;
+    top:150px;
+
+    display:flex;
+    flex-direction:column;
+    height:fit-content;
+    row-gap:20px;
  }
 .select-skin li{
     list-style-type:none;
@@ -224,6 +227,7 @@ button {
     column-gap:25px;
     background-color:transparent;
     border-width:0em;
+    cursor:pointer;
 }
 button > img {
     width:100px;
