@@ -169,7 +169,7 @@ li a:hover {
     transform: rotate(-180deg);
     letter-spacing: 0.25em;
 }
-.gallery {
+#gallery {
     margin-top:83px;
     width:1560px;
     height:920px;
